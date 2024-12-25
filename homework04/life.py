@@ -97,7 +97,7 @@ class GameOfLife:
 
     def save(self, filename: pathlib.Path) -> None:
         """
-        Сохранить текущее состояние клеток в указанный файл.
+        Сохранить текущее состояние клеток в указанный файл
         """
         try:
             with open(filename, "w") as f:
